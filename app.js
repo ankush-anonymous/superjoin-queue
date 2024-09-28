@@ -17,7 +17,7 @@ app.use(cors(corsOptions));
 
 // RabbitMQ connection
 const RABBITMQ_URL =
-  "amqps://lqxaoajr:xGf1f8TnBVuoauFSMHomS5Kfe3cM55es@puffin.rmq2.cloudamqp.com/lqxaoajr";
+  "amqps://swyvhyqm:qZLvJn3NjeT-g-uPeKiNoOLaoOkjjf4m@puffin.rmq2.cloudamqp.com/swyvhyqm";
 const QUEUE = "sheet_sync";
 
 app.post("/rabbitmq/publish", (req, res) => {
